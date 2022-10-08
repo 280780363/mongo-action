@@ -2,7 +2,7 @@
 
 cd /docker-mongo
 
-build="docker build -t mongodb/snc --build-arg VERSION=$latest . "
+build="docker build -t mongodb/snc --build-arg VERSION=latest . "
 sh -c "$build"
 echo 'image build finished'
 
