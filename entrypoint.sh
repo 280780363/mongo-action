@@ -14,7 +14,7 @@ sh -c "$run"
 echo "mongodb is running username: $username, password: $password"
 
 sleep 20s
-
-rs='docker exec mongo sh -c "mongosh -u $username -p $password < /rs.js"'
+rsjs="mongosh -u $username -p $password < /rs.js"
+rs="docker exec mongo sh -c $rsjs"
 sh -c "$rs"
 echo "rs initiate finished"
