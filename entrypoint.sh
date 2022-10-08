@@ -1,9 +1,9 @@
 #!/bin/sh
 
 cd /docker-mongo
-verion=$INPUT_VERSION
-username=$INPUT_USERNAME
-password=INPUT_PASSWORD
+verion="$INPUT_VERSION"
+username="$INPUT_USERNAME"
+password="$INPUT_PASSWORD"
 
 build="docker build -t mongodb/snc --build-arg VERSION=$version . "
 sh -c "$build"
