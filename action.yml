@@ -8,7 +8,7 @@ inputs:
   VERSION:
     description: 'image tag version'
     required: false
-    default: latest
+    default: 'latest'
   USERNAME:
     description: 'MONGO_INITDB_ROOT_USERNAME - root username'
     required: false
