@@ -13,7 +13,7 @@ inputs:
     description: 'MONGO_INITDB_ROOT_USERNAME - root username'
     required: false
     default: 'mongo'
-  username:
+  password:
     description: 'MONGO_INITDB_ROOT_PASSWORD - root user password'
     required: false
     default: '123123'
