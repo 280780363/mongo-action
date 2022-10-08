@@ -1,3 +1,5 @@
+ARG VERSION
+
 FROM mongo:${VERSION}
 
 COPY ./rs.js /rs.js
