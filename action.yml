@@ -1,0 +1,22 @@
+name: 'mongodb with single node cluster'
+description: 'Start mongodb with single node cluster'
+author: 'gucao'
+branding:
+  icon: 'database'
+  color: 'yellow'
+inputs:
+  version:
+    description: 'image tag version'
+    required: false
+    default: latest
+  username:
+    description: 'MONGO_INITDB_ROOT_USERNAME - root username'
+    required: false
+    default: 'mongo'
+  username:
+    description: 'MONGO_INITDB_ROOT_PASSWORD - root user password'
+    required: false
+    default: '123123'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
