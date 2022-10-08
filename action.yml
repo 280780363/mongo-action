@@ -5,15 +5,15 @@ branding:
   icon: 'database'
   color: 'yellow'
 inputs:
-  VERSION:
+  version:
     description: 'image tag version'
     required: false
     default: 'latest'
-  USERNAME:
+  username:
     description: 'MONGO_INITDB_ROOT_USERNAME - root username'
     required: false
     default: 'mongo'
-  PASSWORD:
+  username:
     description: 'MONGO_INITDB_ROOT_PASSWORD - root user password'
     required: false
     default: '123123'
