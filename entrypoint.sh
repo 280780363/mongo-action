@@ -1,7 +1,7 @@
 #!/bin/sh
 
 cd /docker-mongo
-verion="$INPUT_VERSION"
+version="$INPUT_VERSION"
 username="$INPUT_USERNAME"
 password="$INPUT_PASSWORD"
 
@@ -15,6 +15,6 @@ echo "mongodb is running username: $username, password: $password"
 
 sleep 20s
 
-rs='docker exec mongo sh -c "mongosh -u $n, -p $password < /rs.js"'
+rs='docker exec mongo sh -c "mongosh -u $username, -p $password < /rs.js"'
 sh -c "$rs"
 echo "rs initiate finished"
