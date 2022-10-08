@@ -1,6 +1,6 @@
 # MongoDb with single node cluster GitHub Action
 
-This [GitHub Action](https://github.com/features/actions) sets up a MongoDb with sinel node cluster.
+This [GitHub Action](https://github.com/features/actions) sets up a MongoDb with sinel node cluster, you can use it test mongodb transaction, default connection string: "mongodb://mongo:123123@localhost:27017/?authSource=admin".
 
 ## Usage
 
